@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>Louis Lozneanu: Lab 2</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
+</head>
+<body>
+
+  <h1>Sign Up Form</h1>
+  
+  <form action="/submit-form" method="POST" autocomplete="on">
+
+    <div class="form-group">
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required placeholder="example@domain.com" />
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+    </div>
+
+    <div class="form-group">
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required />
+    </div>
+
+    <div class="form-group">
+      <button type="submit">Submit</button>
+    </div>
+    
+  </form>
+  
+</body>
+</html>
