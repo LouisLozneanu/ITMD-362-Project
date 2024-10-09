@@ -1,0 +1,1 @@
+// JavaScript to handle form interactions and progress bar updates
