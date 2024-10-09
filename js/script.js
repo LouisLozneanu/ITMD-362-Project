@@ -14,3 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
         filledFields++;
       }
     });
+
+    // Calculate percentage of form completion
+    const progressPercentage = (filledFields / totalFields) * 100;
+    progressBar.style.width = progressPercentage + '%';
+  });
+  
+  
+  form.addEventListener('submit', function(event) {
+    alert('You Are Signed Up!');
+  });
+});
