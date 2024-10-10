@@ -1,7 +1,7 @@
-/* Typography and Body Styling */
+/* Body and Typography */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ECEFF1; /* Light gray background */
+  background-color: #F5F7FA; /* Light cool gray background */
   padding: 20px;
 }
 
@@ -9,6 +9,25 @@ h1 {
   text-align: center;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #3E4A61; /* Deep navy */
+}
+
+/* Progress Bar Styling */
+.progress-bar {
+  width: 100%;
+  background-color: #E1E9F1; /* Light blue-gray */
+  height: 8px; /* Increased height for visibility */
+  border-radius: 5px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.progress {
+  width: 0; /* Starts at 0, updates via JavaScript */
+  background-color: #FF6F61; /* Vibrant coral red */
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.4s ease; /* Smooth transition */
 }
 
 /* Form Styling */
@@ -27,6 +46,7 @@ label {
   display: block;
   margin-bottom: 5px;
   font-weight: 400;
+  color: #3E4A61; /* Deep navy */
 }
 
 input[type="email"], 
@@ -34,22 +54,23 @@ input[type="tel"],
 input[type="date"] {
   width: 100%;
   padding: 10px;
-  border: 1px solid #B0BEC5; /* Gray border */
+  border: 1px solid #BCC3D0; /* Light border */
   border-radius: 5px;
-  background-color: #ECEFF1; /* Light gray input background */
+  background-color: #F5F7FA; /* Light cool gray input background */
+  color: #3E4A61; /* Text color */
 }
 
 /* Input Focus Effects */
 input:focus {
-  border-color: #1E88E5; /* Material blue focus border */
-  box-shadow: 0 0 5px rgba(30, 136, 229, 0.5); /* Soft blue glow */
+  border-color: #FF6F61; /* Coral red focus border */
+  box-shadow: 0 0 5px rgba(255, 111, 97, 0.5); /* Coral red glow */
   outline: none; /* Remove default outline */
 }
 
 button {
   width: 100%;
   padding: 10px;
-  background-color: #1E88E5; /* Material blue */
+  background-color: #FF6F61; /* Vibrant coral red */
   color: white;
   border: none;
   border-radius: 5px;
@@ -58,7 +79,7 @@ button {
 }
 
 button:hover {
-  background-color: #1565C0; /* Darker blue on hover */
+  background-color: #E65C55; /* Slightly darker coral red */
 }
 
 /* Media Queries */

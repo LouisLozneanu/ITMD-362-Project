@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
     progressBar.style.width = progressPercentage + '%';
   });
   
-  
   form.addEventListener('submit', function(event) {
     alert('You Are Signed Up!');
   });
