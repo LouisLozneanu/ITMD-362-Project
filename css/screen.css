@@ -1,7 +1,7 @@
 /* Body and Typography */
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #F5F7FA; /* Light cool gray background */
+  font-family: 'Roboto', 'Arial', sans-serif;
+  background-color: #F5F7FA;
   padding: 20px;
 }
 
