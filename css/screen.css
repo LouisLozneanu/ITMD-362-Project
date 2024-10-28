@@ -102,14 +102,25 @@ button:hover {
   .form-group {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
   }
 
-  label, input {
+  label {
     width: 48%;
   }
 
+  input[type="email"], 
+  input[type="tel"], 
+  input[type="date"] {
+    width: 48%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
   button {
-    width: auto;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
   }
 }
 
