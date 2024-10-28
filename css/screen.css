@@ -152,4 +152,25 @@ button:hover {
     flex-direction: column;
     margin-bottom: 25px;
   }
+  
+  label {
+    font-size: 1.2rem;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  input[type="email"], 
+  input[type="tel"], 
+  input[type="date"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+  }
+
+  button {
+    width: 50%;
+    padding: 18px;
+    font-size: 20px;
+    margin: 0 auto;
+  }
 }
